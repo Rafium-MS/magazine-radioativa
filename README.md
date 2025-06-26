@@ -8,7 +8,7 @@ Este repositório contém o código-fonte do blog **Radioativo**, um projeto est
 2. A URL gerada seguirá o padrão:
    
    ```
-   https://<usuario>.github.io/magazine-radioativa/
+   https://<Rafium-MS>.github.io/magazine-radioativa/
    ```
 3. Todos os arquivos HTML e recursos já estão prontos para uso estático. Basta realizar o *push* das mudanças para que o site seja atualizado.
 
