@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>☢️ RADIOATIVO BLOG</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Bungee&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <!-- Floating Atoms -->
+  <div class="atom" style="top: 10%; left: 10%;"></div>
+  <div class="atom" style="top: 20%; right: 15%; animation-delay: 2s;"></div>
+  <div class="atom" style="bottom: 30%; left: 20%; animation-delay: 4s;"></div>
+  <div class="atom" style="bottom: 10%; right: 10%; animation-delay: 6s;"></div>
+
+  <div include-html="components/header.html"></div>
+  <div include-html="components/nav.html"></div>
+
+  <div class="container">
+    <main>
+      <section class="featured-cards" id="featuredCards">
+        <h2 class="section-title">🌟 Destaques Radioativos</h2>
+        <!-- Cards serão carregados dinamicamente aqui -->
+      </section>
+
+      <section class="posts-section" id="postContainer">
+        <h2 class="section-title">💥 Últimas Irradiações</h2>
+        <!-- Posts regulares serão carregados aqui -->
+      </section>
+    </main>
+
+    <aside class="sidebar">
+      <div class="geiger-counter">
+        <h3 class="counter-title">⚛️ Métrica Radioativa</h3>
+        <div class="meter">
+          <div class="meter-zones">
+            <div class="zone green"></div>
+            <div class="zone yellow"></div>
+            <div class="zone red"></div>
+          </div>
+          <div class="needle" id="geigerNeedle"></div>
+          <div class="meter-center"></div>
+        </div>
+        <div class="radiation-levels">
+          <span class="level" onclick="setRadiation('green')" title="Altamente Recomendado">🟩</span>
+          <span class="level" onclick="setRadiation('yellow')" title="Mediano">🟨</span>
+          <span class="level" onclick="setRadiation('red')" title="Radioativamente Ruim">🟥</span>
+        </div>
+        <div style="margin-top: 1rem; font-size: 0.9rem; color: var(--electric-blue);">
+          Clique nas zonas para testar o medidor!
+        </div>
+      </div>
+
+      <div class="widget">
+        <h3 class="widget-title">🔥 Mais Radioativos</h3>
+        <div class="widget-content">
+          <div class="popular-item">
+            <strong>Duna: Parte Dois</strong><br>
+            <small>Denis Villeneuve completa sua obra-prima</small>
+          </div>
+          <div class="popular-item">
+            <strong>House of the Dragon</strong><br>
+            <small>Game of Thrones renasce das cinzas</small>
+          </div>
+          <div class="popular-item">
+            <strong>Cyberpunk: Edgerunners</strong><br>
+            <small>Anime que salvou um videogame</small>
+          </div>
+          <div class="popular-item">
+            <strong>The Last of Us</strong><br>
+            <small>Adaptação que funcionou</small>
+          </div>
+        </div>
+      </div>
+
+      <div class="widget">
+        <h3 class="widget-title">⚡ Evite Esta Semana</h3>
+        <div class="widget-content">
+          <div class="popular-item" style="color: #ff6b6b;">
+            <strong>Velma (HBO Max)</strong><br>
+            <small>Scooby-Doo que ninguém pediu</small>
+          </div>
+          <div class="popular-item" style="color: #ff6b6b;">
+            <strong>The Idol</strong><br>
+            <small>Polêmica sem substância</small>
+          </div>
+        </div>
+      </div>
+
+      <div class="widget">
+        <h3 class="widget-title">🧬 Mutação do Dia</h3>
+        <div class="widget-content">
+          <p><strong>"Touch Grass"</strong></p>
+          <p>Expressão que ironicamente manda alguém "tocar na grama", ou seja, sair de casa e viver a vida real em vez de ficar só online.</p>
+        </div>
+      </div>
+    </aside>
+  </div>
+
+  <div include-html="components/footer.html"></div>
+
+  <script src="assets/js/loader.js"></script>
+  <script src="assets/js/postsLoader.js"></script>
+  <script src="assets/js/loadCards.js" type="module"></script>
+  <script src="assets/js/main.js" type="module"></script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+[
+  {
+    "categoria": "Resenha Radioativa",
+    "titulo": "The Boys: Quando Super-Heróis Viram Pesadelo",
+    "classificacao": "🧪 ME IRRADIOU!",
+    "tipoNota": "rating-irradiated",
+    "conteudo": "Garth Ennis criou uma das histórias mais brutais e brilhantes sobre super-heróis...",
+    "pagina": "series",
+    "id": "the-boys-quando-super-heróis-viram-pesadelo"
+  },
+  {
+    "categoria": "Comparativo Mutante",
+    "titulo": "Netflix vs HBO: Guerra dos Streamings",
+    "classificacao": "☢️ CUIDADO: MUTAÇÃO!",
+    "tipoNota": "rating-mutation",
+    "conteudo": "Duas gigantes do streaming em batalha épica. Qual oferece o melhor conteúdo original?",
+    "pagina": "filmes",
+    "id": "netflix-vs-hbo-guerra-dos-streamings"
+  },
+  {
+    "categoria": "Raio-X",
+    "titulo": "Bastidores: Como Stranger Things Conquistou o Mundo",
+    "classificacao": "🧪 ME IRRADIOU!",
+    "tipoNota": "rating-irradiated",
+    "conteudo": "Dos irmãos Duffer à nostalgia dos anos 80, descobrimos os segredos por trás do fenômeno...",
+    "pagina": "series",
+    "id": "bastidores-como-stranger-things-conquistou-o-mundo"
+  },
+  {
+    "categoria": "Verbetes & Gírias",
+    "titulo": "\"Based\": A Evolução de uma Gíria Digital",
+    "classificacao": "☢️ CUIDADO: MUTAÇÃO!",
+    "tipoNota": "rating-mutation",
+    "conteudo": "Como uma palavra do hip-hop virou sinônimo de autenticidade na internet...",
+    "pagina": "comportamento",
+    "id": "\"based\"-a-evolução-de-uma-gíria-digital"
+  }
+]
